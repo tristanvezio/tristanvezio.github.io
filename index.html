@@ -1,17 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tristan Vezio | Research Portfolio</title>
-  <meta name="description" content="Academic portfolio and research archive of Tristan Vezio, focused on the contemporary Arab and Muslim worlds.">
+  <meta name="description" content="Academic portfolio of Tristan Vezio, focused on political thought, conflict and the contemporary Arab and Muslim worlds.">
+  <title>Tristan Vezio — Research Portfolio</title>
   <style>
     :root {
-      --ink: #252922;
-      --muted: #70766c;
-      --line: #dedfd7;
       --paper: #faf9f6;
+      --ink: #252922;
+      --muted: #77796f;
+      --line: #deded5;
       --accent: #52664e;
     }
     * { box-sizing: border-box; }
@@ -21,80 +20,101 @@
       background: var(--paper);
       color: var(--ink);
       font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.7;
+      line-height: 1.75;
     }
     .container {
-      max-width: 850px;
+      width: min(850px, calc(100% - 44px));
       margin: auto;
-      padding: 0 28px;
     }
     header {
-      padding: 28px 0;
+      padding: 25px 0;
       border-bottom: 1px solid var(--line);
-      font-family: Arial, sans-serif;
-      font-size: 13px;
-      letter-spacing: .04em;
+      font: 12px Arial, sans-serif;
+      letter-spacing: .08em;
     }
-    header a, nav a {
+    nav { display: flex; flex-wrap: wrap; gap: 22px; }
+    nav a {
       color: var(--ink);
       text-decoration: none;
-      margin-right: 22px;
     }
-    header a:hover, nav a:hover { color: var(--accent); }
-    .hero { padding: 100px 0 78px; }
+    nav a:hover, a:hover { color: var(--accent); }
+    .hero { padding: 95px 0 75px; }
     .eyebrow {
       color: var(--accent);
-      font: 12px Arial, sans-serif;
+      font: 11px Arial, sans-serif;
+      letter-spacing: .17em;
       text-transform: uppercase;
-      letter-spacing: .16em;
     }
     h1 {
-      font-size: clamp(42px, 8vw, 68px);
-      font-weight: normal;
-      letter-spacing: -.04em;
-      line-height: 1.1;
       margin: 20px 0;
+      font-size: clamp(43px, 8vw, 70px);
+      font-weight: normal;
+      letter-spacing: -.045em;
+      line-height: 1.1;
     }
     .intro {
-      max-width: 620px;
-      color: #555b52;
-      font-size: 19px;
+      max-width: 680px;
+      font-size: 20px;
+      color: #51564e;
+      line-height: 1.65;
+    }
+    .current {
+      margin-top: 25px;
+      color: var(--muted);
+      font: 13px Arial, sans-serif;
     }
     section {
-      padding: 38px 0;
+      padding: 36px 0 44px;
       border-top: 1px solid var(--line);
+      scroll-margin-top: 25px;
     }
-    h2 { font-size: 27px; font-weight: normal; }
-    .item { padding: 15px 0; }
-    .item h3 { font-size: 19px; font-weight: normal; margin: 0; }
-    .item p { color: var(--muted); margin: 5px 0; font-size: 15px; }
+    h2 {
+      margin: 12px 0 22px;
+      font-size: 30px;
+      font-weight: normal;
+      letter-spacing: -.025em;
+    }
+    h3 { font-size: 19px; font-weight: normal; }
+    p { max-width: 700px; }
+    .research-item {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .research-item:last-child { border-bottom: 0; }
+    .research-item h3 { margin: 0 0 5px; }
+    .meta {
+      color: var(--muted);
+      font: 12px Arial, sans-serif;
+      letter-spacing: .03em;
+    }
+    .tags { margin-top: 18px; }
     .tag {
       display: inline-block;
+      margin: 4px 5px 4px 0;
+      padding: 4px 9px;
       border: 1px solid var(--line);
-      border-radius: 2px;
-      padding: 4px 10px;
-      margin: 4px 4px 4px 0;
-      font: 12px Arial, sans-serif;
+      color: #555b52;
+      font: 11px Arial, sans-serif;
     }
-    .contact { color: var(--accent); }
+    .text-link { color: var(--accent); }
     footer {
+      padding: 24px 0 40px;
       border-top: 1px solid var(--line);
-      padding: 25px 0 40px;
       color: var(--muted);
       font: 12px Arial, sans-serif;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 520px) {
       .hero { padding: 65px 0 50px; }
-      header a, nav a { margin-right: 12px; }
+      nav { gap: 14px; }
     }
   </style>
 </head>
 <body>
   <header>
     <div class="container">
-      <nav>
+      <nav aria-label="Main navigation">
         <a href="#home">HOME</a>
-        <a href="#research">RESEARCH</a>
+        <a href="#research">RESEARCH & WRITING</a>
         <a href="#about">ABOUT</a>
         <a href="#contact">CONTACT</a>
       </nav>
@@ -106,55 +126,78 @@
       <div class="eyebrow">Academic portfolio · Research archive</div>
       <h1>Tristan Vezio</h1>
       <p class="intro">
-        Research interests in the contemporary Arab and Muslim worlds,
-        political thought, conflict, and the relationship between
-        power, society and ideology.
+        Exploring political thought, conflict, and the social,
+        intellectual and religious dynamics of the contemporary
+        Arab and Muslim worlds.
       </p>
-      <p>
-        Master's student in Contemporary Arab and Islamic Studies
-        at the Universidad Autónoma de Madrid.
+      <p class="current">
+        MA student in Contemporary Arab and Islamic Studies
+        · Universidad Autónoma de Madrid
       </p>
     </div>
 
     <section id="research">
-      <div class="eyebrow">Selected work</div>
+      <div class="eyebrow">Selected work & academic archive</div>
       <h2>Research & Writing</h2>
-      <div class="item">
-        <h3>Research papers & essays</h3>
-        <p>Academic papers, conceptual analyses and coursework.</p>
+
+      <div class="research-item">
+        <div class="meta">MASTER'S FINAL PROJECT · 2026</div>
+        <h3>The Syrian Civil War and the Construction of Radicalization in Dabiq and Rumiyah</h3>
+        <p>
+          A critical discourse and sociology of power analysis
+          of ISIS propaganda, examining the construction of
+          radicalization across the group's English-language
+          magazines between 2014 and 2017.
+        </p>
+        <div class="meta">Discourse analysis · Political violence · Syria</div>
       </div>
-      <div class="item">
-        <h3>The Syrian Civil War and the Construction of Radicalization</h3>
-        <p>Final master's project · 2026</p>
-        <p>A critical discourse and sociology of power analysis
-        of ISIS propaganda in Dabiq and Rumiyah.</p>
+
+      <div class="research-item">
+        <div class="meta">ACADEMIC PAPERS</div>
+        <h3>Essays & Research Papers</h3>
+        <p>
+          A growing archive of academic papers and conceptual
+          analyses developed through studies in history,
+          international relations and contemporary Arab and
+          Islamic studies.
+        </p>
+        <div class="meta">Full texts and abstracts will be added progressively.</div>
       </div>
-      <p>Research archive — further work will be added progressively.</p>
     </section>
 
     <section id="about">
-      <div class="eyebrow">Background</div>
+      <div class="eyebrow">Academic background</div>
       <h2>About</h2>
       <p>
         My academic background combines history and international
-        relations with a growing focus on the political, social,
-        intellectual and religious dynamics of the contemporary
-        Arab and Muslim worlds.
+        relations. My current studies focus on the contemporary
+        Arab and Muslim worlds, with particular interests in
+        political thought, conflict, ideology and the relationships
+        between power and society.
       </p>
-      <div>
+      <p>
+        Alongside my academic work, I have gained professional
+        experience in Mediterranean cooperation and international
+        affairs.
+      </p>
+      <div class="tags">
         <span class="tag">Middle East</span>
         <span class="tag">Political thought</span>
         <span class="tag">Conflict studies</span>
         <span class="tag">Discourse analysis</span>
         <span class="tag">International relations</span>
+        <span class="tag">History</span>
       </div>
     </section>
 
     <section id="contact">
-      <div class="eyebrow">Get in touch</div>
+      <div class="eyebrow">Academic exchange</div>
       <h2>Contact</h2>
-      <p>For research-related enquiries and academic exchange.</p>
-      <p>Contact details will be added here.</p>
+      <p>
+        For research-related enquiries, academic exchange
+        and professional opportunities.
+      </p>
+      <p>Contact details and professional links will be added here.</p>
     </section>
   </main>
 
