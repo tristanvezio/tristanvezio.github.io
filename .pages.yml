@@ -1,0 +1,66 @@
+media:
+  input: media/articles
+  output: /media/articles
+  extensions: [png, jpg, jpeg, webp, gif]
+
+content:
+  - name: articles
+    label: Articles
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{title}.md"
+      field: false
+    view:
+      primary: title
+      fields: [title, category, date]
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        default: post
+        hidden: true
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: description
+        label: Résumé
+        type: text
+      - name: category
+        label: Catégorie
+        type: string
+      - name: date
+        label: Date de publication
+        type: date
+        required: true
+      - name: reading_time
+        label: Temps de lecture (minutes)
+        type: number
+      - name: body
+        label: Texte de l’article
+        type: rich-text
+        required: true
+        options:
+          format: markdown
+          switcher: false
+          media: article_images
+
+media:
+  - name: article_images
+    label: Images des articles
+    input: media/articles
+    output: /media/articles
+    extensions: [png, jpg, jpeg, webp, gif]
+
+settings:
+  commit:
+    templates:
+      create: "Publier l’article : {name}"
+      update: "Modifier l’article : {name}"
+      delete: "Supprimer l’article : {name}"
