@@ -1,7 +1,9 @@
 media:
-  input: media/articles
-  output: /media/articles
-  extensions: [png, jpg, jpeg, webp, gif]
+  - name: article_images
+    label: Images des articles
+    input: media/articles
+    output: /media/articles
+    extensions: [png, jpg, jpeg, webp, gif]
 
 content:
   - name: articles
@@ -50,13 +52,6 @@ content:
           format: markdown
           switcher: false
           media: article_images
-
-media:
-  - name: article_images
-    label: Images des articles
-    input: media/articles
-    output: /media/articles
-    extensions: [png, jpg, jpeg, webp, gif]
 
 settings:
   commit:
