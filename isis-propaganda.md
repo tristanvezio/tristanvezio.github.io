@@ -62,7 +62,7 @@ footer{border-top:2px solid var(--ink);padding:22px 0 35px;font:11px Arial,sans-
 </div>
 <h2>Read the full thesis</h2>
 <p>The complete research project is available as a PDF.</p>
-<a class="button" href="/Thesis%20Final%20.pdf">Read the full thesis ↗</a>
+<a class="button" href="https://github.com/tristanvezio/tristanvezio.github.io/blob/main/Thesis%20Final%20.pdf">Read the full thesis ↗</a>
 </article>
 <a class="button" href="/articles.html">← Back to articles & ideas</a>
 </main>
