@@ -46,7 +46,7 @@ Ces travaux offrent un cadre d’interprétation pour l’actualité de 2026, sa
 
 Références : Rouhana (1997) ; Jamal (2011).
 
-### **3. La coalition comme frontière de la légitimité politique : Aveux de faiblesse ou *realpolitik ?*** 
+### **3. La coalition comme frontière de la légitimité politique : Aveux de faiblesse ou *realpolitik ?***
 
 Le système parlementaire permet en principe aux partis de négocier des alliances en fonction de leurs programmes et de leurs intérêts. Le refus de participer à une coalition n’est donc pas, en soi, une preuve d’exclusion institutionnelle. Des divergences sur la politique de sécurité, le statut des territoires occupés, la définition de l’État ou les priorités économiques peuvent constituer des obstacles réels à la coopération.
 
