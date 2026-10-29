@@ -33,6 +33,10 @@ h1{font:900 clamp(42px,8vw,76px)/.98 Arial,sans-serif;letter-spacing:-.07em;marg
 .button{display:inline-block;background:var(--blue);color:white!important;padding:14px 18px;text-decoration:none;font:900 11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin:12px 0}
 footer{border-top:2px solid var(--ink);padding:22px 0 35px;font:11px Arial,sans-serif}
 @media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}}
+
+/* EDITORIAL REDESIGN */
+
+:root{--paper:#f4f1e9;--ink:#142238;--blue:#294a70;--orange:#b99a61;--lime:#e5d5b3;--white:#fffdf8;--line:#d8d4ca}body{line-height:1.85}.nav{border-bottom:1px solid var(--line)}.logo{letter-spacing:.08em}.logo b{color:var(--orange)}.nav a:last-child{letter-spacing:.1em;color:#586475}.label{color:var(--orange);letter-spacing:.19em}h1{font-family:Georgia,'Times New Roman',serif;font-weight:500;letter-spacing:-.045em;line-height:1.03}h1 span{color:var(--orange)!important}.dek{font-family:Georgia,'Times New Roman',serif;color:#3c4a5d}.meta{color:#697586;letter-spacing:.13em}.body{background:var(--white);border:1px solid #dfdbd1;padding:clamp(24px,5vw,52px)}.body h2{font-family:Georgia,'Times New Roman',serif;font-weight:500;letter-spacing:-.035em}.body a{color:var(--blue)}.tag{border:1px solid #d2c7b3;color:#4f5d70;letter-spacing:.08em}.button{background:#142238;color:white!important;letter-spacing:.12em}.button:hover{background:var(--orange);color:var(--ink)!important}footer{border-top:1px solid var(--line)}
 </style>
 </head>
 <body>
