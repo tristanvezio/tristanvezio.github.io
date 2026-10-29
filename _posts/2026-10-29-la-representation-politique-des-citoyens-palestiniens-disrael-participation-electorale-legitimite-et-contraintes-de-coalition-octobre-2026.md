@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "## **La représentation politique des citoyens palestiniens d’Israël :
+title: "La représentation politique des citoyens palestiniens d’Israël :
   participation électorale, légitimité et contraintes de coalition - Octobre
-  2026**"
+  2026"
 description: "Les élections israéliennes du 27 octobre 2026 ont placé les partis
   représentant les citoyens palestiniens d’Israël au centre d’un nouveau rapport
   de force parlementaire. Pourtant, leur capacité à peser sur la formation du
