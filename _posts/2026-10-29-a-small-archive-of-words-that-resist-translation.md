@@ -11,6 +11,12 @@ category: LINGUISTIQUE, POLITIQUE, CULTURE
 date: 2026-10-29
 reading_time: 3
 ---
+
+
+&nbsp;
+
+![images.jpeg](/media/articles/images-2.jpeg)
+
 Certains mots passent d'une langue à l'autre sans effort. D'autres trimballement quelque chose que la traduction ne rend jamais complètement. En arabe, une partie du vocabulaire est indissociable des histoires, des luttes et de la vie quotidienne qui lui ont donné son sens. On peut toujours traduire ces mots. Mais leur équivalent n'a pas le même poids. Meme pour moi, qui n'es pas un arabophone ou même qui parle l'arabe couramment, ces mots sonnent comme des sons intemporels, surtout après les Printemps et Automnes Arabes de 2011. Je remercie chaleuresement, mes professeurs Danae Fonseca et Gonzalo Fernandez Parilla pour leur aide dans la construction de cet article. 
 
 Je commence avec trois d'entre eux : karāma, ṣumūd et waṭan. 
