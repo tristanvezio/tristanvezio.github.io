@@ -28,30 +28,21 @@ h1,h2{font-family:Georgia,serif;font-weight:500;letter-spacing:-.04em}
 h1{font-size:clamp(42px,7vw,72px);line-height:1.05;margin:22px 0}
 h1 em{color:var(--blue)}
 .subtitle{font:22px/1.55 Georgia,serif;color:#536174;max-width:740px}
-.meta{margin:35px 0;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:12px;color:#657083}
-.content{max-width:740px}
+.meta{margin:35px 0 30px;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:10px;line-height:1.9;letter-spacing:.09em;color:#657083}
+.content{max-width:700px;margin:0 auto}
+.content h2{position:relative;padding-top:8px}
+.content h2:first-child{margin-top:42px}
+.content h2:before{content:"";display:block;width:30px;height:1px;background:var(--gold);position:absolute;top:-9px;left:0}
+.content p{font-size:16px;line-height:1.9}
+.article-header{max-width:760px}
+.article-image{width:min(310px,75%);margin:42px auto 52px;text-align:center}
+.article-image img{width:100%;height:auto;max-height:390px;object-fit:cover;object-position:center 25%;border:8px solid var(--white);box-shadow:0 8px 28px rgba(20,34,56,.10)}
+.article-image figcaption{margin-top:12px;font-size:11px;letter-spacing:.04em;color:#657083}
+.reading-note{margin:0 0 45px;padding:18px 22px;background:rgba(255,253,248,.65);border-left:2px solid var(--gold);font:italic 16px/1.7 Georgia,serif;color:#536174}
 .content h2{font-size:32px;margin:48px 0 15px}
 .content p{color:#465366;margin:0 0 22px}
 .quote{font:italic 23px/1.5 Georgia,serif;color:var(--blue);border-left:2px solid var(--gold);padding:8px 0 8px 24px;margin:35px 0}
-  .article-image {
-  margin: 40px 0;
-}
-
-.article-image img {
-  display: block;
-  width: 100%;
-  max-height: 480px;
-  object-fit: cover;
-  object-position: center 30%;
-}
-
-.article-image figcaption {
-  margin-top: 10px;
-  font-size: 12px;
-  color: #657083;
-  font-style: italic;
-}
-.back{display:inline-block;margin-top:40px;color:var(--blue);font-size:11px;font-weight:900;text-transform:uppercase;text-decoration:none}
+  .back{display:inline-block;margin-top:40px;color:var(--blue);font-size:11px;font-weight:900;text-transform:uppercase;text-decoration:none}
 footer{border-top:1px solid var(--line);padding:25px 0;font-size:12px}
 @media(max-width:650px){.nav{align-items:flex-start;flex-direction:column}main{padding-top:45px}}
 </style>
@@ -69,7 +60,8 @@ footer{border-top:1px solid var(--line);padding:25px 0;font-size:12px}
 </header>
 
 <main class="wrap">
-<div class="kicker">Reading Room · Book review · Political thought</div>
+<div class="article-header">
+<div class="kicker">Reading Room &nbsp; / &nbsp; Book review &nbsp; / &nbsp; Political thought</div>
 
 <h1>Beyond Servitude:<br><em>Sayyid Qutb</em></h1>
 
@@ -77,6 +69,7 @@ footer{border-top:1px solid var(--line);padding:25px 0;font-size:12px}
 Sovereignty, freedom and political authority in
 <em>Milestones</em> (Maʿālim fī al-ṭarīq).
 </p>
+</div>
 
 <div class="meta">
 AUTHOR · SAYYID QUTB &nbsp; | &nbsp;
@@ -85,11 +78,12 @@ SUBJECT · ISLAMIC POLITICAL THOUGHT
 </div>
 
 <figure class="article-image">
- <img src="images/images.jpeg" alt="Portrait of Sayyid Qutb">
+  <img src="images.jpeg" alt="Portrait of Sayyid Qutb">
   <figcaption>Sayyid Qutb (1906–1966)</figcaption>
 </figure>  
 
 <div class="content">
+<div class="reading-note">A conceptual reading of Qutb's account of <em>ʿubūdiyya</em> and its implications for sovereignty, freedom and political authority.</div>
 <h2>Introduction</h2>
 <p>
 Some books are best approached not simply as historical documents,
