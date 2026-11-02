@@ -54,6 +54,8 @@ h1 {
 }
 .review-image {min-height:260px;background:#e8e3d8;overflow:hidden}
 .review-image img {display:block;width:100%;height:100%;min-height:260px;object-fit:cover;object-position:center 25%}
+.review-cover {display:flex;align-items:center;justify-content:center;background:#e8e3d8;padding:18px}
+.review-cover img {display:block;width:auto;height:260px;max-width:100%;object-fit:contain;box-shadow:0 8px 20px rgba(20,34,56,.16)}
 .review-copy {padding:8px 8px 8px 0}
 .shelf-note {margin:55px 0 20px;padding:25px 0;border-top:1px solid var(--line);color:#657083;font:italic 18px/1.6 Georgia,serif}
 @media(max-width:650px) {
@@ -61,6 +63,8 @@ h1 {
   .review-note {padding:22px}
   .review-image {min-height:230px;max-height:300px}
   .review-image img {min-height:230px;max-height:300px}
+  .review-cover {min-height:260px}
+  .review-cover img {height:240px}
   .review-copy {padding:0}
 }
 .meta {
@@ -123,7 +127,10 @@ footer {
       <a class="link" href="qutb-milestones.html">Read the review ↗</a>
     </div>
 </article>
-<article class="review review-note">
+<article class="review">
+  <div class="review-image review-cover">
+    <img src="https://www.marcialpons.es/media/img/portadas/2007/10/26/100806071_g.jpg" alt="Cover of Játim by Raja Alem">
+  </div>
   <div class="review-copy">
     <div class="meta">Reading note · Literature · Social representations</div>
     <h2><em>Játim</em>: Identity, Social Order and Marginality in Raja Alem</h2>
