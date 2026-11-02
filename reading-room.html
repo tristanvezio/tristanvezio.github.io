@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reading Room — Tristan Vezio</title>
+<style>
+:root {
+  --paper:#f4f1e9;
+  --ink:#142238;
+  --blue:#294a70;
+  --gold:#b99a61;
+  --white:#fffdf8;
+  --line:#d8d4ca;
+}
+* {box-sizing:border-box}
+body {
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font:16px/1.75 Arial,sans-serif;
+}
+.wrap {width:min(1000px,calc(100% - 40px));margin:auto}
+.nav {
+  display:flex;justify-content:space-between;
+  align-items:center;gap:20px;
+  padding:23px 0;border-bottom:1px solid var(--line);
+}
+.logo {font-weight:900;text-decoration:none;color:var(--ink)}
+.logo b {color:var(--gold)}
+nav {display:flex;gap:20px;flex-wrap:wrap}
+nav a {
+  color:var(--ink);font-size:11px;font-weight:900;
+  text-transform:uppercase;text-decoration:none;
+}
+.intro {padding:75px 0 45px}
+.kicker {
+  color:var(--gold);font-size:11px;font-weight:900;
+  letter-spacing:.18em;text-transform:uppercase;
+}
+h1 {
+  font:500 clamp(55px,9vw,95px)/.98 Georgia,serif;
+  letter-spacing:-.05em;margin:25px 0;
+}
+.intro p {
+  font:21px/1.55 Georgia,serif;
+  color:#536174;max-width:680px;
+}
+.review {
+  background:var(--white);border:1px solid var(--line);
+  padding:30px;margin:18px 0;
+}
+.meta {
+  color:var(--gold);font-size:11px;font-weight:900;
+  letter-spacing:.13em;text-transform:uppercase;
+}
+h2 {
+  font:500 clamp(27px,4vw,40px)/1.1 Georgia,serif;
+  letter-spacing:-.04em;margin:15px 0;
+}
+.review p {color:#586475;max-width:750px}
+.link {
+  display:inline-block;margin-top:10px;
+  color:var(--blue);font-size:11px;font-weight:900;
+  text-transform:uppercase;text-decoration:none;
+  border-bottom:1px solid var(--gold);
+}
+footer {
+  margin-top:60px;padding:25px 0;
+  border-top:1px solid var(--line);font-size:12px;
+}
+@media(max-width:650px) {
+  .nav {align-items:flex-start;flex-direction:column}
+  .intro {padding:50px 0 25px}
+}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="logo" href="index.html">TRISTAN <b>VEZIO.</b></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="articles.html">Articles</a>
+    <a href="reading-room.html">Reading Room</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <header class="intro">
+    <div class="kicker">Books · Authors · Ideas</div>
+    <h1>Reading<br>Room.</h1>
+    <p>A collection of critical readings, intellectual encounters and reflections on books that help us understand politics, history and society.</p>
+  </header>
+
+  <article class="review">
+    <div class="meta">Book review · Political thought</div>
+    <h2>Title of the first review</h2>
+    <p>Author, publication details and a short introduction to the book and the questions it raises.</p>
+    <a class="link" href="#">Read the review ↗</a>
+  </article>
+</main>
+
+<footer class="wrap">© 2026 Tristan Vezio · Reading Room</footer>
+</body>
+</html>
